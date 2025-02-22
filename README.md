@@ -26,72 +26,57 @@ This project implements **image steganography** using **Python and OpenCV** to s
 ```bash
 git clone https://github.com/AryanSaini57/steganography-Project.git
 cd steganography-Project
-
-🔹 2️⃣ Install Dependencies
-bash
-Copy
-Edit
+```
+### 2️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
-If requirements.txt is missing, install dependencies manually:
+```
 
-bash
-Copy
-Edit
+```bash
 pip install opencv-python numpy
-🔹 3️⃣ Run the Script
-bash
-Copy
-Edit
+```
+### 3️⃣ Run the Script
+```bash
 python stego.py
-📝 How It Works
-🔹 Hiding a Message
+```
+##📝 How It Works
+###🔹 Hiding a Message
 1️⃣ The program loads an image
 2️⃣ User enters a secret message & password
 3️⃣ The message is encoded inside image pixels
 4️⃣ The encrypted image is saved
 
-🔹 Retrieving a Message
+###🔹 Retrieving a Message
 1️⃣ The encrypted image is loaded back
 2️⃣ User enters the correct password
 3️⃣ The hidden message is extracted and displayed
 
-📷 Screenshots
-(Add screenshots of the original image, encrypted image, and decryption output here)
+##📷 Screenshots
 
-🔮 Future Enhancements
+
+![image](https://github.com/user-attachments/assets/5560b6b3-8084-4277-a95b-16336d39bf93)
+![image](https://github.com/user-attachments/assets/15ed31e4-d386-4f29-bdbc-e185bcc921d0)
+![image](https://github.com/user-attachments/assets/2cd5e0f5-255b-48f1-83d1-d71b3abe1b0b)
+
+
+
+##🔮 Future Enhancements
 🚀 Support for Video & Audio Steganography
 🚀 GUI-Based Interface for Ease of Use
 🚀 Advanced Encryption (AES) for Additional Security
 🚀 Mobile App Integration for Secure Messaging
 
-📜 License
-This project is open-source under the MIT License. Feel free to modify and improve!
-
-🤝 Contributing
+##🤝 Contributing
 Pull requests are welcome! If you'd like to contribute:
 1️⃣ Fork this repository
 2️⃣ Make changes and push to your branch
 3️⃣ Submit a pull request (PR)
 
-📧 Contact
+##📧 Contact
 📩 Aryan Saini
 🔗 GitHub: AryanSaini57
-📂 LinkedIn: [Your LinkedIn URL] (optional)
 
-⭐ If you found this project useful, don’t forget to give it a star! ⭐
-
-yaml
-Copy
-Edit
-
----
-
-### **✅ What’s Improved?**  
-🚀 **All commands are inside proper `bash` code blocks** → Users can easily **copy-paste**  
-🚀 **Keeps `pip install` commands separate** in case `requirements.txt` is missing  
-🚀 **Improved clarity & organization**  
-
-Now you can simply **copy & paste** this into your **README.md** file in GitHub! 🚀🔥 Let me know if you need further modifications. 😊
+###⭐ If you found this project useful, don’t forget to give it a star! ⭐
 
 
 
